@@ -1,0 +1,12 @@
+.footer p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size:25px;
+}
+
+.footer p span{
+  font-size: larger;
+  background: linear-gradient(264deg , #85297a -5.09% , #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

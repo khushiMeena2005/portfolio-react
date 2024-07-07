@@ -1,0 +1,93 @@
+
+.skill-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+
+.skill-title {
+  position: relative;
+   margin-bottom:20px;
+  
+}
+.skill-title h1{
+  padding: 0px 30px;
+  font-size:80px;
+  font-weight: 600;
+}
+
+.skill-title img{
+  position: absolute;
+  bottom: 0;
+  right:0;
+  z-index: -1;
+
+}
+
+.skills{
+  display: flex;
+  flex-wrap: wrap;
+  gap:10px;
+  margin:20px auto 80px auto;
+  justify-content: center;
+   height:400px;
+   width:85%;
+   
+  
+}
+
+
+.card-holder{
+  
+  margin:30px;
+  padding:15px;
+  height:125px;
+  width: 125px;
+  border-radius:20px;
+  vertical-align: middle; 
+    border: 0.05px solid #161513;
+    border-top-color:rgb(210, 148, 221);
+    border-left-color: none;
+    border-right-color:none;
+
+}
+
+.card-holder p{
+  font-size:20px;
+  margin: 5px;
+}
+
+.card-holder:hover{
+  transform: scale(1.25); 
+  transition: 0.4s;
+}
+
+.skill-text{ 
+ text-align: center;
+  margin: 0 auto;
+  font-size:15px;
+  font-weight:500;
+  font-family:'outfit';
+}
+
+@media (max-width:768px) {
+    .skill-container{
+      margin-top:-170px;
+    align-items: start;
+    }
+    .skill-title h1{
+      margin-left:100px;
+      font-size:60px;
+   
+   }
+
+   .skill-title img{
+    width:110px;
+    right:7px;
+   }
+}
+
+

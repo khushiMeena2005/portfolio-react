@@ -1,0 +1,125 @@
+.projects{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+   align-items: center;
+ 
+}
+
+hr{
+   width:80%;
+   margin-left: auto;
+   margin-right: auto;
+   box-shadow: 0px 0px 5px 5px #B415FF;
+}
+
+.project-title {
+  position: relative;
+}
+.project-title h1{
+  padding: 0px 30px;
+  font-size:80px;
+  font-weight: 600;
+}
+
+.project-title img{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+
+}
+
+.projectContainer{
+  margin-left: 80px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.project-data-container{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap:40px;
+
+}
+
+.project{
+  height: 250px;
+  width: 550px;
+  border: 1px solid;
+  text-align: center;
+  border-radius:20px;
+  padding: 15px;
+ background: linear-gradient(270deg,#f55fcb 10% ,#c760f7a1 100%);
+  color: #212B38;
+   /* box-shadow: 4px 0px 0px 0px #f4cce9;*/
+}
+
+.project2{
+  background: linear-gradient(270deg,#c760f7a1 10%, #f55fcb 100%);
+ 
+}
+.project3{
+  background: linear-gradient(270deg,#f55fcb 10% ,#c760f7a1 100%);
+}
+
+.project4{
+    background: linear-gradient(270deg,#c760f7a1 10%, #f55fcb 100%);
+     
+}
+.project5{
+  background: linear-gradient(270deg,#f55fcb 10% ,#c760f7a1 100%);
+
+}
+.project:hover{
+  
+   transform: scale(1.05);
+   transition: 0.4s;
+  /*background: linear-gradient(270deg,#cd26cafc 10% ,hsla(309, 81%, 50%, 0.996) 100%);*/
+  background-color: #c137b7;
+}
+
+p{
+  font-size: 25px;
+  margin: 25px;
+}
+
+button{
+  margin-bottom:5px;
+  height:40px;
+  width:100px;
+  color:white;
+  border-radius: 15px;
+  border: 1px solid #DF8908;
+  background-color: #212B38;
+}
+
+button a{
+  text-decoration: none;
+  color: white;
+}
+button:hover{
+  transform: scale(1.25);
+  border-color:none;
+}
+
+
+@media (max-width:768px) {
+
+  .projects{
+      margin-top:350px;
+      align-items: start;
+  }
+   .project-title h1{
+    font-size:60px;
+   }
+
+   .project-title img{
+     width:170px;
+   }
+}
